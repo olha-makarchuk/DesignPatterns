@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Singleton;
+
+SingletonProgram singletonProgram = new SingletonProgram();
+singletonProgram.Start();
